@@ -1,6 +1,6 @@
 ## Hillel-Auto_Group-3
 
-## Hi there, we're Group-3! ![](https://github.com/blackcater/blackcater/raw/main/images/Hi.gif) 
+## Hi there, we're Group-3! [](https://github.com/blackcater/blackcater/raw/main/images/Hi.gif) 
 
 #### We are students of Hillel IT School, QA Manual.
 
