@@ -1,6 +1,6 @@
 ## Hillel-Auto_Group-3
 
-## Hi there, we're Group-3! [](https://github.com/blackcater/blackcater/raw/main/images/Hi.gif) 
+## Hi there, we're Group-3! ![](https://github.com/blackcater/blackcater/raw/main/images/Hi.gif) 
 
 #### We are students of Hillel IT School, QA Manual.
 
@@ -10,6 +10,5 @@
 
 #### The *file Hillel_Auto_Group-3.postman_collection.json* contains information about the Postman collection from the website API https://qauto2.forstudy.space.
 
-#### The *file Hillel Auto.postman_environment.json* contains information about the user environment variables.
-
+#### The *file Hillel Auto.postman_environment.json* contains information about the user environment variables. 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Hillel+IT+School)](https://git.io/typing-svg)
