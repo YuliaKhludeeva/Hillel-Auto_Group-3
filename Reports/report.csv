@@ -1,0 +1,275 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1663415271076,1043,Sign in - POST,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-1,text,true,,841,289,2,2,https://qauto2.forstudy.space/api/auth/signin,1036,0,478
+1663415271910,709,Sign in - POST,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-2,text,true,,841,289,2,2,https://qauto2.forstudy.space/api/auth/signin,709,0,146
+1663415277124,291,Cars brands - GET,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-1,text,true,,952,280,2,2,https://qauto2.forstudy.space/api/cars/brands,229,0,133
+1663415277124,229,Cars brands - GET-0,301,Moved Permanently,Concurrency Thread Group - Endurance tests-ThreadStarter 2-1,text,true,,375,140,2,2,http://qauto2.forstudy.space/api/cars/brands,229,0,133
+1663415277355,60,Cars brands - GET-1,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-1,text,true,,577,140,2,2,https://qauto2.forstudy.space/api/cars/brands,60,0,0
+1663415277624,295,Cars brands - GET,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-2,text,true,,952,280,2,2,https://qauto2.forstudy.space/api/cars/brands,229,0,130
+1663415277624,229,Cars brands - GET-0,301,Moved Permanently,Concurrency Thread Group - Endurance tests-ThreadStarter 2-2,text,true,,375,140,2,2,http://qauto2.forstudy.space/api/cars/brands,229,0,130
+1663415277854,65,Cars brands - GET-1,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-2,text,true,,577,140,2,2,https://qauto2.forstudy.space/api/cars/brands,65,0,0
+1663415278405,768,Sign in - POST,200,OK,Performance tests 4-2,text,true,,837,289,1,3,https://qauto2.forstudy.space/api/auth/signin,768,0,119
+1663415280417,176,Add car - GET,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-1,text,true,,895,306,2,3,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,97,0,0
+1663415280417,97,Add car - GET-0,301,Moved Permanently,Concurrency Thread Group - Endurance tests-ThreadStarter 2-1,text,true,,388,153,2,3,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,97,0,0
+1663415280515,78,Add car - GET-1,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-1,text,true,,507,153,2,3,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,78,0,0
+1663415280920,184,Add car - GET,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-2,text,true,,895,306,2,4,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,133,0,0
+1663415280920,133,Add car - GET-0,301,Moved Permanently,Concurrency Thread Group - Endurance tests-ThreadStarter 2-2,text,true,,388,153,2,4,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,133,0,0
+1663415281053,51,Add car - GET-1,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-2,text,true,,507,153,2,4,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,51,0,0
+1663415280907,844,Sign in - POST,200,OK,Performance tests 4-1,text,true,,841,289,2,4,https://qauto2.forstudy.space/api/auth/signin,844,0,158
+1663415284175,286,Cars brands - GET,200,OK,Performance tests 4-2,text,true,,952,280,2,4,https://qauto2.forstudy.space/api/cars/brands,228,0,128
+1663415284175,229,Cars brands - GET-0,301,Moved Permanently,Performance tests 4-2,text,true,,375,140,2,4,http://qauto2.forstudy.space/api/cars/brands,228,0,128
+1663415284404,57,Cars brands - GET-1,200,OK,Performance tests 4-2,text,true,,577,140,2,4,https://qauto2.forstudy.space/api/cars/brands,57,0,0
+1663415285613,198,Instructions - GET,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-1,text,true,,1645,348,2,4,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,141,0,0
+1663415285613,141,Instructions - GET-0,301,Moved Permanently,Concurrency Thread Group - Endurance tests-ThreadStarter 2-1,text,true,,409,174,2,4,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,141,0,0
+1663415285755,56,Instructions - GET-1,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-1,text,true,,1236,174,2,4,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,56,0,0
+1663415286106,390,Instructions - GET,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-2,text,true,,1645,348,2,4,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,97,0,0
+1663415286106,97,Instructions - GET-0,301,Moved Permanently,Concurrency Thread Group - Endurance tests-ThreadStarter 2-2,text,true,,409,174,2,4,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,97,0,0
+1663415286204,292,Instructions - GET-1,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-2,text,true,,1236,174,2,4,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,292,0,0
+1663415285819,688,Sign in - POST,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-1,text,true,,837,289,2,4,https://qauto2.forstudy.space/api/auth/signin,688,0,143
+1663415286755,387,Cars brands - GET,200,OK,Performance tests 4-1,text,true,,952,280,2,4,https://qauto2.forstudy.space/api/cars/brands,198,0,98
+1663415286755,198,Cars brands - GET-0,301,Moved Permanently,Performance tests 4-1,text,true,,375,140,2,4,http://qauto2.forstudy.space/api/cars/brands,198,0,98
+1663415286953,189,Cars brands - GET-1,200,OK,Performance tests 4-1,text,true,,577,140,2,4,https://qauto2.forstudy.space/api/cars/brands,189,0,0
+1663415286498,651,Sign in - POST,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-2,text,true,,839,289,2,4,https://qauto2.forstudy.space/api/auth/signin,650,0,109
+1663415289466,231,Add car - GET,200,OK,Performance tests 4-2,text,true,,895,306,2,4,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,138,0,0
+1663415289466,138,Add car - GET-0,301,Moved Permanently,Performance tests 4-2,text,true,,388,153,2,4,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,138,0,0
+1663415289604,93,Add car - GET-1,200,OK,Performance tests 4-2,text,true,,507,153,2,4,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,93,0,0
+1663415291510,266,Cars brands - GET,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-1,text,true,,952,280,2,3,https://qauto2.forstudy.space/api/cars/brands,194,0,94
+1663415291510,194,Cars brands - GET-0,301,Moved Permanently,Concurrency Thread Group - Endurance tests-ThreadStarter 2-1,text,true,,375,140,2,3,http://qauto2.forstudy.space/api/cars/brands,194,0,94
+1663415291705,71,Cars brands - GET-1,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-1,text,true,,577,140,2,3,https://qauto2.forstudy.space/api/cars/brands,71,0,0
+1663415292149,158,Add car - GET,200,OK,Performance tests 4-1,text,true,,895,306,1,2,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,105,0,0
+1663415292149,105,Add car - GET-0,301,Moved Permanently,Performance tests 4-1,text,true,,388,153,1,2,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,105,0,0
+1663415292255,52,Add car - GET-1,200,OK,Performance tests 4-1,text,true,,507,153,1,2,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,52,0,0
+1663415292154,254,Cars brands - GET,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-2,text,true,,952,280,1,1,https://qauto2.forstudy.space/api/cars/brands,200,0,101
+1663415292154,201,Cars brands - GET-0,301,Moved Permanently,Concurrency Thread Group - Endurance tests-ThreadStarter 2-2,text,true,,375,140,1,1,http://qauto2.forstudy.space/api/cars/brands,200,0,101
+1663415292355,53,Cars brands - GET-1,200,OK,Concurrency Thread Group - Endurance tests-ThreadStarter 2-2,text,true,,577,140,1,1,https://qauto2.forstudy.space/api/cars/brands,53,0,0
+1663415310901,955,Sign in - POST,200,OK,Load tests 3-5,text,true,,841,289,1,1,https://qauto2.forstudy.space/api/auth/signin,955,0,280
+1663415316863,300,Cars brands - GET,200,OK,Load tests 3-5,text,true,,952,280,1,1,https://qauto2.forstudy.space/api/cars/brands,241,0,141
+1663415316863,242,Cars brands - GET-0,301,Moved Permanently,Load tests 3-5,text,true,,375,140,1,1,http://qauto2.forstudy.space/api/cars/brands,241,0,141
+1663415317105,58,Cars brands - GET-1,200,OK,Load tests 3-5,text,true,,577,140,1,1,https://qauto2.forstudy.space/api/cars/brands,58,0,0
+1663415320895,751,Sign in - POST,200,OK,Load tests 3-4,text,true,,841,289,2,2,https://qauto2.forstudy.space/api/auth/signin,751,0,132
+1663415322167,253,Add car - GET,200,OK,Load tests 3-5,text,true,,895,306,2,2,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,187,0,0
+1663415322167,187,Add car - GET-0,301,Moved Permanently,Load tests 3-5,text,true,,388,153,2,2,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,187,0,0
+1663415322355,65,Add car - GET-1,200,OK,Load tests 3-5,text,true,,507,153,2,2,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,65,0,0
+1663415326650,267,Cars brands - GET,200,OK,Load tests 3-4,text,true,,952,280,2,2,https://qauto2.forstudy.space/api/cars/brands,204,0,105
+1663415326650,204,Cars brands - GET-0,301,Moved Permanently,Load tests 3-4,text,true,,375,140,2,2,http://qauto2.forstudy.space/api/cars/brands,204,0,105
+1663415326854,63,Cars brands - GET-1,200,OK,Load tests 3-4,text,true,,577,140,2,2,https://qauto2.forstudy.space/api/cars/brands,63,0,0
+1663415327422,226,Instructions - GET,200,OK,Load tests 3-5,text,true,,1645,348,2,2,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,132,0,0
+1663415327422,132,Instructions - GET-0,301,Moved Permanently,Load tests 3-5,text,true,,409,174,2,2,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,132,0,0
+1663415327554,94,Instructions - GET-1,200,OK,Load tests 3-5,text,true,,1236,174,2,2,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,94,0,0
+1663415327650,665,Sign in - POST,200,OK,Load tests 3-5,text,true,,841,289,2,2,https://qauto2.forstudy.space/api/auth/signin,665,0,107
+1663415330893,848,Sign in - POST,200,OK,Load tests 3-3,text,true,,837,289,3,3,https://qauto2.forstudy.space/api/auth/signin,847,0,151
+1663415331923,190,Add car - GET,200,OK,Load tests 3-4,text,true,,895,306,3,3,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,132,0,0
+1663415331923,133,Add car - GET-0,301,Moved Permanently,Load tests 3-4,text,true,,388,153,3,3,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,132,0,0
+1663415332056,57,Add car - GET-1,200,OK,Load tests 3-4,text,true,,507,153,3,3,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,57,0,0
+1663415333317,292,Cars brands - GET,200,OK,Load tests 3-5,text,true,,952,280,3,3,https://qauto2.forstudy.space/api/cars/brands,238,0,139
+1663415333317,238,Cars brands - GET-0,301,Moved Permanently,Load tests 3-5,text,true,,375,140,3,3,http://qauto2.forstudy.space/api/cars/brands,238,0,139
+1663415333556,53,Cars brands - GET-1,200,OK,Load tests 3-5,text,true,,577,140,3,3,https://qauto2.forstudy.space/api/cars/brands,53,0,0
+1663415336743,277,Cars brands - GET,200,OK,Load tests 3-3,text,true,,952,280,3,3,https://qauto2.forstudy.space/api/cars/brands,211,0,111
+1663415336743,211,Cars brands - GET-0,301,Moved Permanently,Load tests 3-3,text,true,,375,140,3,3,http://qauto2.forstudy.space/api/cars/brands,211,0,111
+1663415336954,66,Cars brands - GET-1,200,OK,Load tests 3-3,text,true,,577,140,3,3,https://qauto2.forstudy.space/api/cars/brands,66,0,0
+1663415337116,206,Instructions - GET,200,OK,Load tests 3-4,text,true,,1645,348,3,3,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,138,0,0
+1663415337116,138,Instructions - GET-0,301,Moved Permanently,Load tests 3-4,text,true,,409,174,3,3,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,138,0,0
+1663415337254,68,Instructions - GET-1,200,OK,Load tests 3-4,text,true,,1236,174,3,3,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,68,0,0
+1663415337323,716,Sign in - POST,200,OK,Load tests 3-4,text,true,,839,289,3,3,https://qauto2.forstudy.space/api/auth/signin,716,0,151
+1663415338613,144,Add car - GET,200,OK,Load tests 3-5,text,true,,895,306,3,3,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,91,0,0
+1663415338613,91,Add car - GET-0,301,Moved Permanently,Load tests 3-5,text,true,,388,153,3,3,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,91,0,0
+1663415338704,53,Add car - GET-1,200,OK,Load tests 3-5,text,true,,507,153,3,3,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,53,0,0
+1663415340894,695,Sign in - POST,200,OK,Load tests 3-2,text,true,,843,289,4,4,https://qauto2.forstudy.space/api/auth/signin,695,0,112
+1663415342025,218,Add car - GET,200,OK,Load tests 3-3,text,true,,895,306,4,4,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,129,0,0
+1663415342025,129,Add car - GET-0,301,Moved Permanently,Load tests 3-3,text,true,,388,153,4,4,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,129,0,0
+1663415342154,89,Add car - GET-1,200,OK,Load tests 3-3,text,true,,507,153,4,4,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,89,0,0
+1663415343042,266,Cars brands - GET,200,OK,Load tests 3-4,text,true,,952,280,4,4,https://qauto2.forstudy.space/api/cars/brands,212,0,112
+1663415343042,212,Cars brands - GET-0,301,Moved Permanently,Load tests 3-4,text,true,,375,140,4,4,http://qauto2.forstudy.space/api/cars/brands,212,0,112
+1663415343255,53,Cars brands - GET-1,200,OK,Load tests 3-4,text,true,,577,140,4,4,https://qauto2.forstudy.space/api/cars/brands,53,0,0
+1663415343763,145,Instructions - GET,200,OK,Load tests 3-5,text,true,,1645,348,4,4,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,91,0,0
+1663415343763,91,Instructions - GET-0,301,Moved Permanently,Load tests 3-5,text,true,,409,174,4,4,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,91,0,0
+1663415343855,53,Instructions - GET-1,200,OK,Load tests 3-5,text,true,,1236,174,4,4,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,53,0,0
+1663415343910,649,Sign in - POST,200,OK,Load tests 3-5,text,true,,837,289,4,4,https://qauto2.forstudy.space/api/auth/signin,649,0,107
+1663415346595,224,Cars brands - GET,200,OK,Load tests 3-2,text,true,,952,280,4,4,https://qauto2.forstudy.space/api/cars/brands,167,0,109
+1663415346595,168,Cars brands - GET-0,301,Moved Permanently,Load tests 3-2,text,true,,375,140,4,4,http://qauto2.forstudy.space/api/cars/brands,167,0,109
+1663415346763,56,Cars brands - GET-1,200,OK,Load tests 3-2,text,true,,577,140,4,4,https://qauto2.forstudy.space/api/cars/brands,56,0,0
+1663415347246,167,Instructions - GET,200,OK,Load tests 3-3,text,true,,1645,348,4,4,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,108,0,0
+1663415347246,109,Instructions - GET-0,301,Moved Permanently,Load tests 3-3,text,true,,409,174,4,4,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,108,0,0
+1663415347355,58,Instructions - GET-1,200,OK,Load tests 3-3,text,true,,1236,174,4,4,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,58,0,0
+1663415347415,655,Sign in - POST,200,OK,Load tests 3-3,text,true,,837,289,4,4,https://qauto2.forstudy.space/api/auth/signin,655,0,117
+1663415348309,106,Add car - GET,200,OK,Load tests 3-4,text,true,,895,306,4,4,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,54,0,0
+1663415348309,54,Add car - GET-0,301,Moved Permanently,Load tests 3-4,text,true,,388,153,4,4,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,54,0,0
+1663415348363,52,Add car - GET-1,200,OK,Load tests 3-4,text,true,,507,153,4,4,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,52,0,0
+1663415349563,245,Cars brands - GET,200,OK,Load tests 3-5,text,true,,952,280,4,4,https://qauto2.forstudy.space/api/cars/brands,191,0,101
+1663415349563,191,Cars brands - GET-0,301,Moved Permanently,Load tests 3-5,text,true,,375,140,4,4,http://qauto2.forstudy.space/api/cars/brands,191,0,101
+1663415349755,53,Cars brands - GET-1,200,OK,Load tests 3-5,text,true,,577,140,4,4,https://qauto2.forstudy.space/api/cars/brands,53,0,0
+1663415350893,676,Sign in - POST,200,OK,Load tests 3-1,text,true,,839,289,5,5,https://qauto2.forstudy.space/api/auth/signin,676,0,112
+1663415351825,136,Add car - GET,200,OK,Load tests 3-2,text,true,,895,306,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,82,0,0
+1663415351825,82,Add car - GET-0,301,Moved Permanently,Load tests 3-2,text,true,,388,153,5,5,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,82,0,0
+1663415351908,53,Add car - GET-1,200,OK,Load tests 3-2,text,true,,507,153,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,53,0,0
+1663415353072,248,Cars brands - GET,200,OK,Load tests 3-3,text,true,,952,280,5,5,https://qauto2.forstudy.space/api/cars/brands,194,0,136
+1663415353072,194,Cars brands - GET-0,301,Moved Permanently,Load tests 3-3,text,true,,375,140,5,5,http://qauto2.forstudy.space/api/cars/brands,194,0,136
+1663415353267,53,Cars brands - GET-1,200,OK,Load tests 3-3,text,true,,577,140,5,5,https://qauto2.forstudy.space/api/cars/brands,53,0,0
+1663415353422,188,Instructions - GET,200,OK,Load tests 3-4,text,true,,1645,348,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,134,0,0
+1663415353422,134,Instructions - GET-0,301,Moved Permanently,Load tests 3-4,text,true,,409,174,5,5,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,134,0,0
+1663415353557,53,Instructions - GET-1,200,OK,Load tests 3-4,text,true,,1236,174,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,53,0,0
+1663415353612,786,Sign in - POST,200,OK,Load tests 3-4,text,true,,841,289,5,5,https://qauto2.forstudy.space/api/auth/signin,786,0,105
+1663415354813,282,Add car - GET,200,OK,Load tests 3-5,text,true,,895,306,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,142,0,0
+1663415354813,142,Add car - GET-0,301,Moved Permanently,Load tests 3-5,text,true,,388,153,5,5,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,142,0,0
+1663415354955,140,Add car - GET-1,200,OK,Load tests 3-5,text,true,,507,153,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,140,0,0
+1663415356573,248,Cars brands - GET,200,OK,Load tests 3-1,text,true,,952,280,5,5,https://qauto2.forstudy.space/api/cars/brands,190,0,132
+1663415356573,190,Cars brands - GET-0,301,Moved Permanently,Load tests 3-1,text,true,,375,140,5,5,http://qauto2.forstudy.space/api/cars/brands,190,0,132
+1663415356764,57,Cars brands - GET-1,200,OK,Load tests 3-1,text,true,,577,140,5,5,https://qauto2.forstudy.space/api/cars/brands,57,0,0
+1663415356967,149,Instructions - GET,200,OK,Load tests 3-2,text,true,,1645,348,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,93,0,0
+1663415356967,93,Instructions - GET-0,301,Moved Permanently,Load tests 3-2,text,true,,409,174,5,5,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,93,0,0
+1663415357060,56,Instructions - GET-1,200,OK,Load tests 3-2,text,true,,1236,174,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,56,0,0
+1663415357118,700,Sign in - POST,200,OK,Load tests 3-2,text,true,,837,289,5,5,https://qauto2.forstudy.space/api/auth/signin,700,0,108
+1663415358321,137,Add car - GET,200,OK,Load tests 3-3,text,true,,895,306,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,86,0,0
+1663415358321,86,Add car - GET-0,301,Moved Permanently,Load tests 3-3,text,true,,388,153,5,5,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,86,0,0
+1663415358407,51,Add car - GET-1,200,OK,Load tests 3-3,text,true,,507,153,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,51,0,0
+1663415359400,316,Cars brands - GET,200,OK,Load tests 3-4,text,true,,952,280,5,5,https://qauto2.forstudy.space/api/cars/brands,256,0,164
+1663415359400,256,Cars brands - GET-0,301,Moved Permanently,Load tests 3-4,text,true,,375,140,5,5,http://qauto2.forstudy.space/api/cars/brands,256,0,164
+1663415359656,60,Cars brands - GET-1,200,OK,Load tests 3-4,text,true,,577,140,5,5,https://qauto2.forstudy.space/api/cars/brands,60,0,0
+1663415360096,126,Instructions - GET,200,OK,Load tests 3-5,text,true,,1645,348,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,67,0,0
+1663415360096,67,Instructions - GET-0,301,Moved Permanently,Load tests 3-5,text,true,,409,174,5,5,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,67,0,0
+1663415360163,59,Instructions - GET-1,200,OK,Load tests 3-5,text,true,,1236,174,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,59,0,0
+1663415360224,680,Sign in - POST,200,OK,Load tests 3-5,text,true,,839,289,5,5,https://qauto2.forstudy.space/api/auth/signin,679,0,124
+1663415361823,139,Add car - GET,200,OK,Load tests 3-1,text,true,,895,306,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,83,0,0
+1663415361823,83,Add car - GET-0,301,Moved Permanently,Load tests 3-1,text,true,,388,153,5,5,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,83,0,0
+1663415361906,56,Add car - GET-1,200,OK,Load tests 3-1,text,true,,507,153,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,55,0,0
+1663415362822,198,Cars brands - GET,200,OK,Load tests 3-2,text,true,,952,280,5,5,https://qauto2.forstudy.space/api/cars/brands,145,0,90
+1663415362822,145,Cars brands - GET-0,301,Moved Permanently,Load tests 3-2,text,true,,375,140,5,5,http://qauto2.forstudy.space/api/cars/brands,145,0,90
+1663415362967,53,Cars brands - GET-1,200,OK,Load tests 3-2,text,true,,577,140,5,5,https://qauto2.forstudy.space/api/cars/brands,53,0,0
+1663415363463,147,Instructions - GET,200,OK,Load tests 3-3,text,true,,1645,348,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,92,0,0
+1663415363463,92,Instructions - GET-0,301,Moved Permanently,Load tests 3-3,text,true,,409,174,5,5,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,92,0,0
+1663415363556,54,Instructions - GET-1,200,OK,Load tests 3-3,text,true,,1236,174,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,54,0,0
+1663415363611,773,Sign in - POST,200,OK,Load tests 3-3,text,true,,843,289,5,5,https://qauto2.forstudy.space/api/auth/signin,773,0,111
+1663415364717,144,Add car - GET,200,OK,Load tests 3-4,text,true,,895,306,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,92,0,0
+1663415364717,92,Add car - GET-0,301,Moved Permanently,Load tests 3-4,text,true,,388,153,5,5,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,92,0,0
+1663415364809,52,Add car - GET-1,200,OK,Load tests 3-4,text,true,,507,153,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,52,0,0
+1663415365908,202,Cars brands - GET,200,OK,Load tests 3-5,text,true,,952,280,5,5,https://qauto2.forstudy.space/api/cars/brands,151,0,97
+1663415365908,151,Cars brands - GET-0,301,Moved Permanently,Load tests 3-5,text,true,,375,140,5,5,http://qauto2.forstudy.space/api/cars/brands,151,0,97
+1663415366059,51,Cars brands - GET-1,200,OK,Load tests 3-5,text,true,,577,140,5,5,https://qauto2.forstudy.space/api/cars/brands,51,0,0
+1663415366963,153,Instructions - GET,200,OK,Load tests 3-1,text,true,,1645,348,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,92,0,0
+1663415366963,92,Instructions - GET-0,301,Moved Permanently,Load tests 3-1,text,true,,409,174,5,5,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,92,0,0
+1663415367055,61,Instructions - GET-1,200,OK,Load tests 3-1,text,true,,1236,174,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,61,0,0
+1663415367117,839,Sign in - POST,200,OK,Load tests 3-1,text,true,,837,289,5,5,https://qauto2.forstudy.space/api/auth/signin,839,0,126
+1663415368026,133,Add car - GET,200,OK,Load tests 3-2,text,true,,895,306,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,79,0,0
+1663415368026,79,Add car - GET-0,301,Moved Permanently,Load tests 3-2,text,true,,388,153,5,5,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,79,0,0
+1663415368106,53,Add car - GET-1,200,OK,Load tests 3-2,text,true,,507,153,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,53,0,0
+1663415369388,323,Cars brands - GET,200,OK,Load tests 3-3,text,true,,952,280,5,5,https://qauto2.forstudy.space/api/cars/brands,271,0,217
+1663415369388,271,Cars brands - GET-0,301,Moved Permanently,Load tests 3-3,text,true,,375,140,5,5,http://qauto2.forstudy.space/api/cars/brands,271,0,217
+1663415369659,52,Cars brands - GET-1,200,OK,Load tests 3-3,text,true,,577,140,5,5,https://qauto2.forstudy.space/api/cars/brands,52,0,0
+1663415369865,144,Instructions - GET,200,OK,Load tests 3-4,text,true,,1645,348,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,90,0,0
+1663415369865,90,Instructions - GET-0,301,Moved Permanently,Load tests 3-4,text,true,,409,174,5,5,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,90,0,0
+1663415369955,54,Instructions - GET-1,200,OK,Load tests 3-4,text,true,,1236,174,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,54,0,0
+1663415370012,811,Sign in - POST,200,OK,Load tests 3-4,text,true,,839,289,5,5,https://qauto2.forstudy.space/api/auth/signin,811,0,103
+1663415371111,150,Add car - GET,200,OK,Load tests 3-5,text,true,,895,306,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,94,0,0
+1663415371111,94,Add car - GET-0,301,Moved Permanently,Load tests 3-5,text,true,,388,153,5,5,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,94,0,0
+1663415371205,56,Add car - GET-1,200,OK,Load tests 3-5,text,true,,507,153,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,56,0,0
+1663415372960,201,Cars brands - GET,200,OK,Load tests 3-1,text,true,,952,280,5,5,https://qauto2.forstudy.space/api/cars/brands,150,0,95
+1663415372960,150,Cars brands - GET-0,301,Moved Permanently,Load tests 3-1,text,true,,375,140,5,5,http://qauto2.forstudy.space/api/cars/brands,150,0,95
+1663415373110,51,Cars brands - GET-1,200,OK,Load tests 3-1,text,true,,577,140,5,5,https://qauto2.forstudy.space/api/cars/brands,51,0,0
+1663415373161,152,Instructions - GET,200,OK,Load tests 3-2,text,true,,1645,348,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,94,0,0
+1663415373161,94,Instructions - GET-0,301,Moved Permanently,Load tests 3-2,text,true,,409,174,5,5,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,94,0,0
+1663415373255,58,Instructions - GET-1,200,OK,Load tests 3-2,text,true,,1236,174,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,58,0,0
+1663415373314,888,Sign in - POST,200,OK,Load tests 3-2,text,true,,839,289,5,5,https://qauto2.forstudy.space/api/auth/signin,888,0,110
+1663415374713,151,Add car - GET,200,OK,Load tests 3-3,text,true,,895,306,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,92,0,0
+1663415374713,92,Add car - GET-0,301,Moved Permanently,Load tests 3-3,text,true,,388,153,5,5,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,92,0,0
+1663415374805,59,Add car - GET-1,200,OK,Load tests 3-3,text,true,,507,153,5,5,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,59,0,0
+1663415375823,196,Cars brands - GET,200,OK,Load tests 3-4,text,true,,952,280,5,5,https://qauto2.forstudy.space/api/cars/brands,143,0,89
+1663415375823,143,Cars brands - GET-0,301,Moved Permanently,Load tests 3-4,text,true,,375,140,5,5,http://qauto2.forstudy.space/api/cars/brands,143,0,89
+1663415375966,53,Cars brands - GET-1,200,OK,Load tests 3-4,text,true,,577,140,5,5,https://qauto2.forstudy.space/api/cars/brands,53,0,0
+1663415376266,158,Instructions - GET,200,OK,Load tests 3-5,text,true,,1645,348,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,100,0,0
+1663415376266,100,Instructions - GET-0,301,Moved Permanently,Load tests 3-5,text,true,,409,174,5,5,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,100,0,0
+1663415376366,58,Instructions - GET-1,200,OK,Load tests 3-5,text,true,,1236,174,5,5,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,58,0,0
+1663415376426,751,Sign in - POST,200,OK,Load tests 3-5,text,true,,839,289,5,5,https://qauto2.forstudy.space/api/auth/signin,751,0,108
+1663415378166,145,Add car - GET,200,OK,Load tests 3-1,text,true,,895,306,4,4,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,89,0,0
+1663415378166,89,Add car - GET-0,301,Moved Permanently,Load tests 3-1,text,true,,388,153,4,4,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,89,0,0
+1663415378255,56,Add car - GET-1,200,OK,Load tests 3-1,text,true,,507,153,4,4,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,56,0,0
+1663415379205,208,Cars brands - GET,200,OK,Load tests 3-2,text,true,,952,280,4,4,https://qauto2.forstudy.space/api/cars/brands,157,0,100
+1663415379205,157,Cars brands - GET-0,301,Moved Permanently,Load tests 3-2,text,true,,375,140,4,4,http://qauto2.forstudy.space/api/cars/brands,157,0,100
+1663415379362,51,Cars brands - GET-1,200,OK,Load tests 3-2,text,true,,577,140,4,4,https://qauto2.forstudy.space/api/cars/brands,51,0,0
+1663415379870,189,Instructions - GET,200,OK,Load tests 3-3,text,true,,1645,348,4,4,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,135,0,0
+1663415379870,135,Instructions - GET-0,301,Moved Permanently,Load tests 3-3,text,true,,409,174,4,4,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,135,0,0
+1663415380005,54,Instructions - GET-1,200,OK,Load tests 3-3,text,true,,1236,174,4,4,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,54,0,0
+1663415380061,698,Sign in - POST,200,OK,Load tests 3-3,text,true,,845,289,4,4,https://qauto2.forstudy.space/api/auth/signin,698,0,108
+1663415381026,194,Add car - GET,200,OK,Load tests 3-4,text,true,,895,306,3,3,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,130,0,0
+1663415381026,131,Add car - GET-0,301,Moved Permanently,Load tests 3-4,text,true,,388,153,3,3,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,130,0,0
+1663415381157,63,Add car - GET-1,200,OK,Load tests 3-4,text,true,,507,153,3,3,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,63,0,0
+1663415383313,146,Instructions - GET,200,OK,Load tests 3-1,text,true,,1645,348,2,2,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,93,0,0
+1663415383313,93,Instructions - GET-0,301,Moved Permanently,Load tests 3-1,text,true,,409,174,2,2,http://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,93,0,0
+1663415383406,53,Instructions - GET-1,200,OK,Load tests 3-1,text,true,,1236,174,2,2,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,53,0,0
+1663415383461,657,Sign in - POST,200,OK,Load tests 3-1,text,true,,837,289,2,2,https://qauto2.forstudy.space/api/auth/signin,657,0,103
+1663415384419,363,Add car - GET,200,OK,Load tests 3-2,text,true,,895,306,1,1,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,187,0,0
+1663415384419,187,Add car - GET-0,301,Moved Permanently,Load tests 3-2,text,true,,388,153,1,1,http://qauto2.forstudy.space/api/cars/models?carBrandId=1,187,0,0
+1663415384606,176,Add car - GET-1,200,OK,Load tests 3-2,text,true,,507,153,1,1,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,176,0,0
+1663874822859,1174,Guest log in - POST,401,Unauthorized,Load tests 2-3,text,true,,400,282,1,1,https://qauto2.forstudy.space/api-logs,1167,0,946
+1663874824042,91,Stage of creation of API - POST,400,Bad Request,Load tests 2-3,text,true,,353,362,1,1,https://qauto2.forstudy.space/api/auth/signup,91,0,0
+1663874824175,553,Sign in - POST,200,OK,Load tests 2-3,text,true,,839,289,1,1,https://qauto2.forstudy.space/api/auth/signin,553,0,0
+1663874824734,642,Login with valid login details & Remember me option ON - POST,200,OK,Load tests 2-3,text,true,,668,463,1,1,https://qauto2.forstudy.space/api/auth/signin,642,0,0
+1663874826048,1500,Guest log in - POST,401,Unauthorized,Load tests 2-2,text,true,,400,282,2,2,https://qauto2.forstudy.space/api-logs,1500,0,1388
+1663874827549,90,Stage of creation of API - POST,400,Bad Request,Load tests 2-2,text,true,,353,362,2,2,https://qauto2.forstudy.space/api/auth/signup,90,0,0
+1663874825377,2291,Password Reset with Valid Email - POST,200,OK,Load tests 2-3,text,true,,311,436,2,2,https://qauto2.forstudy.space/api/auth/resetPassword,2291,0,0
+1663874827684,722,Password reset with invalid email - POST,400,Bad Request,Load tests 2-3,text,true,,355,424,2,2,https://qauto2.forstudy.space/api/auth/resetPassword,722,0,0
+1663874827640,766,Sign in - POST,200,OK,Load tests 2-2,text,true,,839,289,2,2,https://qauto2.forstudy.space/api/auth/signin,766,0,0
+1663874828408,545,Cars brands - GET,200,OK,Load tests 2-3,text,true,,577,314,2,2,https://qauto2.forstudy.space/api/cars/brands,545,0,0
+1663874828408,554,Login with valid login details & Remember me option ON - POST,200,OK,Load tests 2-2,text,true,,668,463,2,2,https://qauto2.forstudy.space/api/auth/signin,554,0,0
+1663874828957,63,Cars - GET,200,OK,Load tests 2-3,text,true,,322,320,2,2,https://qauto2.forstudy.space/api/cars?user=$(USER),63,0,0
+1663874829021,757,Add car - GET,200,OK,Load tests 2-3,text,true,,507,327,3,3,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,756,0,0
+1663874829779,58,Add car - POST,400,Bad Request,Load tests 2-3,text,true,,361,423,3,3,https://qauto2.forstudy.space/api/cars,58,0,0
+1663874829838,55,Add car and incorrect mileage - POST,400,Bad Request,Load tests 2-3,text,true,,355,750,3,3,https://qauto2.forstudy.space/api/expenses?carId=24185,55,0,0
+1663874829894,187,Add an expense - POST,400,Bad Request,Load tests 2-3,text,true,,355,577,3,3,https://qauto2.forstudy.space/api/expenses,187,0,0
+1663874830082,118,"Incorrect data entry in the ""Mileage"" field - POST",400,Bad Request,Load tests 2-3,text,true,,355,493,3,3,https://qauto2.forstudy.space/api/expenses,118,0,0
+1663874830201,57,Instructions - GET,200,OK,Load tests 2-3,text,true,,1236,348,3,3,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,57,0,0
+1663874830260,142,Remove Car - DELETE,404,Not Found,Load tests 2-3,text,true,,348,398,3,3,https://qauto2.forstudy.space/api/cars/5000,141,0,0
+1663874830402,57,Log Out - GET,404,Not Found,Load tests 2-3,text,true,,348,314,3,3,https://qauto2.forstudy.space/api/cars/logout,57,0,0
+1663874829382,1428,Guest log in - POST,401,Unauthorized,Load tests 2-1,text,true,,400,282,3,3,https://qauto2.forstudy.space/api-logs,1428,0,1148
+1663874830466,680,Guest log in - POST,401,Unauthorized,Load tests 2-3,text,true,,400,456,3,3,https://qauto2.forstudy.space/api-logs,680,0,353
+1663874831147,61,Stage of creation of API - POST,400,Bad Request,Load tests 2-3,text,true,,353,536,3,3,https://qauto2.forstudy.space/api/auth/signup,60,0,0
+1663874830811,401,Stage of creation of API - POST,400,Bad Request,Load tests 2-1,text,true,,353,362,3,3,https://qauto2.forstudy.space/api/auth/signup,401,0,0
+1663874828963,2299,Password Reset with Valid Email - POST,200,OK,Load tests 2-2,text,true,,311,436,3,3,https://qauto2.forstudy.space/api/auth/resetPassword,2299,0,0
+1663874831213,1118,Sign in - POST,200,OK,Load tests 2-1,text,true,,843,289,3,3,https://qauto2.forstudy.space/api/auth/signin,1118,0,0
+1663874831209,1122,Sign in - POST,200,OK,Load tests 2-3,text,true,,668,463,3,3,https://qauto2.forstudy.space/api/auth/signin,1122,0,0
+1663874831263,1068,Password reset with invalid email - POST,400,Bad Request,Load tests 2-2,text,true,,355,424,3,3,https://qauto2.forstudy.space/api/auth/resetPassword,1068,0,0
+1663874832332,1011,Cars brands - GET,200,OK,Load tests 2-2,text,true,,577,314,3,3,https://qauto2.forstudy.space/api/cars/brands,1011,0,0
+1663874832332,1012,Login with valid login details & Remember me option ON - POST,200,OK,Load tests 2-3,text,true,,668,463,3,3,https://qauto2.forstudy.space/api/auth/signin,1012,0,0
+1663874832333,1012,Login with valid login details & Remember me option ON - POST,200,OK,Load tests 2-1,text,true,,668,467,3,3,https://qauto2.forstudy.space/api/auth/signin,1012,0,0
+1663874833345,139,Cars - GET,200,OK,Load tests 2-2,text,true,,322,320,3,3,https://qauto2.forstudy.space/api/cars?user=$(USER),139,0,0
+1663874833485,1096,Add car - GET,200,OK,Load tests 2-2,text,true,,507,327,3,3,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,1096,0,0
+1663874834582,55,Add car - POST,400,Bad Request,Load tests 2-2,text,true,,361,423,3,3,https://qauto2.forstudy.space/api/cars,55,0,0
+1663874834638,126,Add car and incorrect mileage - POST,400,Bad Request,Load tests 2-2,text,true,,355,750,3,3,https://qauto2.forstudy.space/api/expenses?carId=24185,126,0,0
+1663874834765,66,Add an expense - POST,400,Bad Request,Load tests 2-2,text,true,,355,577,3,3,https://qauto2.forstudy.space/api/expenses,66,0,0
+1663874834832,72,"Incorrect data entry in the ""Mileage"" field - POST",400,Bad Request,Load tests 2-2,text,true,,355,493,3,3,https://qauto2.forstudy.space/api/expenses,72,0,0
+1663874834905,57,Instructions - GET,200,OK,Load tests 2-2,text,true,,1236,348,3,3,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,57,0,0
+1663874834963,511,Remove Car - DELETE,404,Not Found,Load tests 2-2,text,true,,348,398,3,3,https://qauto2.forstudy.space/api/cars/5000,511,0,0
+1663874835475,255,Log Out - GET,404,Not Found,Load tests 2-2,text,true,,348,314,3,3,https://qauto2.forstudy.space/api/cars/logout,255,0,0
+1663874835732,160,Guest log in - POST,401,Unauthorized,Load tests 2-2,text,true,,400,456,3,3,https://qauto2.forstudy.space/api-logs,160,0,110
+1663874833347,2672,Password Reset with Valid Email - POST,200,OK,Load tests 2-1,text,true,,311,440,3,3,https://qauto2.forstudy.space/api/auth/resetPassword,2672,0,0
+1663874833346,2677,Password Reset with Valid Email - POST,200,OK,Load tests 2-3,text,true,,311,436,3,3,https://qauto2.forstudy.space/api/auth/resetPassword,2677,0,0
+1663874836020,53,Password reset with invalid email - POST,400,Bad Request,Load tests 2-1,text,true,,355,428,3,3,https://qauto2.forstudy.space/api/auth/resetPassword,53,0,0
+1663874836023,57,Password reset with invalid email - POST,400,Bad Request,Load tests 2-3,text,true,,355,424,3,3,https://qauto2.forstudy.space/api/auth/resetPassword,57,0,0
+1663874836074,53,Cars brands - GET,200,OK,Load tests 2-1,text,true,,577,318,3,3,https://qauto2.forstudy.space/api/cars/brands,53,0,0
+1663874836128,55,Cars - GET,200,OK,Load tests 2-1,text,true,,322,324,3,3,https://qauto2.forstudy.space/api/cars?user=$(USER),55,0,0
+1663874835892,304,Stage of creation of API - POST,400,Bad Request,Load tests 2-2,text,true,,353,536,3,3,https://qauto2.forstudy.space/api/auth/signup,304,0,0
+1663874836184,54,Add car - GET,200,OK,Load tests 2-1,text,true,,507,331,3,3,https://qauto2.forstudy.space/api/cars/models?carBrandId=1,54,0,0
+1663874836083,652,Add car - POST,400,Bad Request,Load tests 2-3,text,true,,361,423,3,3,https://qauto2.forstudy.space/api/cars,652,0,0
+1663874836197,541,Sign in - POST,200,OK,Load tests 2-2,text,true,,668,463,3,3,https://qauto2.forstudy.space/api/auth/signin,541,0,0
+1663874836239,500,Add car - POST,400,Bad Request,Load tests 2-1,text,true,,361,427,3,3,https://qauto2.forstudy.space/api/cars,500,0,0
+1663874836737,53,Add car and incorrect mileage - POST,400,Bad Request,Load tests 2-3,text,true,,355,750,3,3,https://qauto2.forstudy.space/api/expenses?carId=24185,53,0,0
+1663874836791,559,Add an expense - POST,400,Bad Request,Load tests 2-3,text,true,,355,577,3,3,https://qauto2.forstudy.space/api/expenses,559,0,0
+1663874836740,610,Add car and incorrect mileage - POST,400,Bad Request,Load tests 2-1,text,true,,355,754,3,3,https://qauto2.forstudy.space/api/expenses?carId=24185,610,0,0
+1663874836739,611,Login with valid login details & Remember me option ON - POST,200,OK,Load tests 2-2,text,true,,668,463,3,3,https://qauto2.forstudy.space/api/auth/signin,611,0,0
+1663874837353,55,Add an expense - POST,400,Bad Request,Load tests 2-1,text,true,,355,581,3,3,https://qauto2.forstudy.space/api/expenses,55,0,0
+1663874837353,65,"Incorrect data entry in the ""Mileage"" field - POST",400,Bad Request,Load tests 2-3,text,true,,355,493,3,3,https://qauto2.forstudy.space/api/expenses,65,0,0
+1663874837419,690,Remove Car - DELETE,404,Not Found,Load tests 2-3,text,true,,348,398,3,3,https://qauto2.forstudy.space/api/cars/5000,690,0,0
+1663874837409,700,"Incorrect data entry in the ""Mileage"" field - POST",400,Bad Request,Load tests 2-1,text,true,,355,497,3,3,https://qauto2.forstudy.space/api/expenses,700,0,0
+1663874838111,59,Instructions - GET,200,OK,Load tests 2-1,text,true,,1236,352,3,3,https://qauto2.forstudy.space/api/instructions?carBrandId=1&carModelId=1&page=1,59,0,0
+1663874838111,61,Log Out - GET,404,Not Found,Load tests 2-3,text,true,,348,314,3,3,https://qauto2.forstudy.space/api/cars/logout,61,0,0
+1663874838171,58,Remove Car - DELETE,404,Not Found,Load tests 2-1,text,true,,348,402,3,3,https://qauto2.forstudy.space/api/cars/5000,58,0,0
+1663874838174,161,Guest log in - POST,401,Unauthorized,Load tests 2-3,text,true,,400,456,3,3,https://qauto2.forstudy.space/api-logs,161,0,107
+1663874838335,56,Stage of creation of API - POST,400,Bad Request,Load tests 2-3,text,true,,353,536,3,3,https://qauto2.forstudy.space/api/auth/signup,55,0,0
+1663874838230,758,Log Out - GET,404,Not Found,Load tests 2-1,text,true,,348,318,3,3,https://qauto2.forstudy.space/api/cars/logout,758,0,0
+1663874838391,597,Sign in - POST,200,OK,Load tests 2-3,text,true,,668,463,3,3,https://qauto2.forstudy.space/api/auth/signin,597,0,0
+1663874838990,160,Guest log in - POST,401,Unauthorized,Load tests 2-1,text,true,,400,460,3,3,https://qauto2.forstudy.space/api-logs,160,0,111
+1663874838990,575,Login with valid login details & Remember me option ON - POST,200,OK,Load tests 2-3,text,true,,668,463,3,3,https://qauto2.forstudy.space/api/auth/signin,575,0,0
+1663874839150,415,Stage of creation of API - POST,400,Bad Request,Load tests 2-1,text,true,,353,540,3,3,https://qauto2.forstudy.space/api/auth/signup,415,0,0
+1663874839566,1067,Sign in - POST,200,OK,Load tests 2-1,text,true,,668,467,3,3,https://qauto2.forstudy.space/api/auth/signin,1067,0,0
+1663874840634,608,Login with valid login details & Remember me option ON - POST,200,OK,Load tests 2-1,text,true,,668,467,3,3,https://qauto2.forstudy.space/api/auth/signin,608,0,0
+1663874837354,4421,Password Reset with Valid Email - POST,200,OK,Load tests 2-2,text,true,,311,436,3,3,https://qauto2.forstudy.space/api/auth/resetPassword,4421,0,0
+1663874839566,3417,Password Reset with Valid Email - POST,200,OK,Load tests 2-3,text,true,,311,436,2,2,https://qauto2.forstudy.space/api/auth/resetPassword,3417,0,0
+1663874841244,3034,Password Reset with Valid Email - POST,200,OK,Load tests 2-1,text,true,,311,440,1,1,https://qauto2.forstudy.space/api/auth/resetPassword,3034,0,0
